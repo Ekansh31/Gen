@@ -17,7 +17,7 @@ bot.on('message', message => {
     switch (args[0]) { 
         case 'Nitro':
             const Embed = new RichEmbed()
-            .setTitle("Helper Embed")
+            .setTitle("NitroGen Embed")
             .setColor(0xFF0000)
             .setDescription("This is your nitro generator link made by Eke47 - https://replit.com/@Cyber-SmartSmar/Nitro-generator?v=1");
 
