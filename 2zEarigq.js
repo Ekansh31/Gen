@@ -1,9 +1,9 @@
 const {Client, RichEmbed} = require('discord.js');
 const bot = new Client();
 
-const token = 'YOUR TOKEN';
+const token = 'ODkzODY1ODA2MjkzNzYyMDc5.YVhrZw.khEkp5sw2CxZ3nIqKvFq2AGQBZQ';
 
-const PREFIX = '!';
+const PREFIX = 'e-';
 
 
 bot.on('ready', () => {
@@ -15,11 +15,11 @@ bot.on('message', message => {
     
 
     switch (args[0]) { 
-        case 'help':
+        case 'Nitro':
             const Embed = new RichEmbed()
             .setTitle("Helper Embed")
             .setColor(0xFF0000)
-            .setDescription("Make sure to use the !help to get access to the commands");
+            .setDescription("This is your nitro generator link made by Eke47 - https://replit.com/@Cyber-SmartSmar/Nitro-generator?v=1");
 
             message.author.send(Embed);
         break;
